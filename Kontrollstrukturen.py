@@ -1,7 +1,7 @@
 # Python Kontrollstrukturen - Überblick mit je einem Beispiel
 
 # 1. if / elif / else  (Verzweigung)
-# Das Programm entscheidet anhand einer Bedingung, welcher Block ausgeführt wird.
+# Das Programm entscheidet anhand einer Bedingung, welcher Block ausgeführt wird
 
 punkte = 75
 
