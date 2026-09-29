@@ -1,13 +1,7 @@
-# =====================================================
 # Python Kontrollstrukturen - Überblick mit je einem Beispiel
-# =====================================================
 
-
-# -----------------------------------------------------
 # 1. if / elif / else  (Verzweigung)
-# -----------------------------------------------------
 # Das Programm entscheidet anhand einer Bedingung, welcher Block ausgeführt wird.
-print("--- 1. if / elif / else ---")
 
 punkte = 75
 
@@ -21,11 +15,8 @@ else:
     print("Nicht genügend")
 
 
-# -----------------------------------------------------
 # 2. for-Schleife  (Wiederholung mit bekannter Anzahl)
-# -----------------------------------------------------
 # Geht eine Folge (z.B. Liste oder range) Element für Element durch.
-print("\n--- 2. for-Schleife ---")
 
 fruechte = ["Apfel", "Birne", "Banane"]
 
@@ -37,10 +28,7 @@ for zahl in range(1, 6):
     print("Zahl:", zahl)
 
 
-# -----------------------------------------------------
 # 3. while-Schleife  (Wiederholung, solange eine Bedingung stimmt)
-# -----------------------------------------------------
-print("\n--- 3. while-Schleife ---")
 
 zaehler = 3
 
@@ -51,10 +39,7 @@ while zaehler > 0:
 print("Start!")
 
 
-# -----------------------------------------------------
 # 4. break  (Schleife sofort verlassen)
-# -----------------------------------------------------
-print("\n--- 4. break ---")
 
 for zahl in range(1, 10):
     if zahl == 4:
@@ -63,23 +48,9 @@ for zahl in range(1, 10):
     print("Zahl:", zahl)
 
 
-# -----------------------------------------------------
-# 5. continue  (aktuellen Durchlauf überspringen)
-# -----------------------------------------------------
-print("\n--- 5. continue ---")
-
-for zahl in range(1, 6):
-    if zahl == 3:
-        continue            # springt direkt zum nächsten Durchlauf
-    print("Zahl:", zahl)     # die 3 wird nicht ausgegeben
-
-
-# -----------------------------------------------------
 # 6. pass  (Platzhalter, tut nichts)
-# -----------------------------------------------------
 # Python erlaubt keine leeren Blöcke. Mit pass kann man einen Block
 # "vorläufig leer" lassen, z.B. wenn man den Code später schreiben will.
-print("\n--- 6. pass ---")
 
 alter = 20
 
@@ -91,9 +62,7 @@ else:
 print("pass hat nichts gemacht, das Programm läuft trotzdem weiter.")
 
 
-# -----------------------------------------------------
 # 7. try / except / else / finally  (Fehlerbehandlung)
-# -----------------------------------------------------
 # Ohne try/except würde das Programm bei einem Fehler abstürzen.
 print("\n--- 7. try / except ---")
 
