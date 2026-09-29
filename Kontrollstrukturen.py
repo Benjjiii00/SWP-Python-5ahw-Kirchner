@@ -48,7 +48,7 @@ for zahl in range(1, 10):
     print("Zahl:", zahl)
 
 
-# 6. pass  (Platzhalter, tut nichts)
+# 5. pass  (Platzhalter, tut nichts)
 # Python erlaubt keine leeren Blöcke. Mit pass kann man einen Block
 # "vorläufig leer" lassen, z.B. wenn man den Code später schreiben will.
 
@@ -62,9 +62,8 @@ else:
 print("pass hat nichts gemacht, das Programm läuft trotzdem weiter.")
 
 
-# 7. try / except / else / finally  (Fehlerbehandlung)
+# 6. try / except / else / finally  (Fehlerbehandlung)
 # Ohne try/except würde das Programm bei einem Fehler abstürzen.
-print("\n--- 7. try / except ---")
 
 eingabe = "abc"             # Das ist keine Zahl -> das gibt einen Fehler
 
