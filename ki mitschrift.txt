@@ -25,3 +25,6 @@ print(dictionary)
 ```
 
 aber die letzte aufgabe ist glaube ich noch falsch
+
+erklär mir diese zeile:
+index = random.randrange(len(pool))
