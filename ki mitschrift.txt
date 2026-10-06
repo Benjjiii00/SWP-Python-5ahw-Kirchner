@@ -1,0 +1,27 @@
+HÜ1:
+
+Ich muss für die ersten stunden eines python programmier unterrichts die wichtigsten python syntax kontrollstrukturen (if, schleifen, break, pass, try-except)
+erarbeiten (je ein Beispiel) bitte gib mir den code in einer python datei dafür
+
+
+HÜ2:
+
+das war die aufgabe und bis jetzt habe ich es so gelöst:
+
+```
+import random
+
+lotto = list(range(1, 50))
+zufallszahlen = random.sample(lotto, k=6)
+
+print(zufallszahlen)
+
+for i in range(1,1000):
+    zufallszahlen = random.sample(lotto, k=6)
+    print(zufallszahlen)
+    dictionary = {i: zufallszahlen}
+
+print(dictionary)
+```
+
+aber die letzte aufgabe ist glaube ich noch falsch
